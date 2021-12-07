@@ -14,9 +14,14 @@ The purpose of this project is to understand the relationship between covid, une
 
 
 Here is a description of the final dataset (final_data_testing) after cleaning and processing.
-|Column|Value|Description|Data Source|
-|-|-|-|-|
-|Year|YYYY|the year of the data|Kaggle|
+|Column Name|Description|Data Source|
+|-|-|-|
+|Year|the year of the data|Kaggle|
+|Month|the month of the data|Kaggle|
+|labor force|the number of people employed and looking for jobs|US Bureau of Labor Statistics|
+|employment|the number of people employed|US Bureau of Labor Statistics|
+|unemployment|the number of people unemployed|US Bureau of Labor Statistics|
+|unemployment rate|the unemployment rate (unemployment/labor force)|US Bureau of Labor Statistics|
 
 
 
