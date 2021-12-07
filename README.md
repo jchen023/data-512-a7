@@ -29,17 +29,10 @@ Here is a description of the final dataset (final_data_testing) after cleaning a
 
 ## Known Issues
 
-- Pageview API has the ability to filter out views from spiders/crawlers, while the Legacy Pagecounts API does not have such abilities. 
-- There was about 1 year of overlapping traffic data between the two APIs, and data from both APIs in the 1 year of overlapping period is included.
-- Mobile data before Oct 2014 is not available.
-- 0 values were reverted back to null values when graphing to capture the essence of the missing data. The views were not actually zero, even when there was no data.
-- The background of the graph was set to blank, but it can be easily changed in Matplotlib based on user preference.
 
-## API
 
-- API calls are modeled after this [Jupyter Notebook](https://public.paws.wmcloud.org/User:Jtmorgan/data512_a1_example.ipynb).
-- [Legacy Pagecount Endpoint](https://wikimedia.org/api/rest_v1/metrics/legacy/pagecounts/aggregate/{project}/{access-site}/{granularity}/{start}/{end})
-- [Pageviews Endpoint](https://wikimedia.org/api/rest_v1/metrics/pageviews/aggregate/{project}/{access}/{agent}/{granularity}/{start}/{end})
+## Granger Causality Test Python Code
+I utilized code from [Rishiraj Adhikary's public Github repository](https://rishi-a.github.io/2020/05/25/granger-causality.html).
 
 
 ### License and Terms of Use
