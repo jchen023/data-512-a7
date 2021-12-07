@@ -9,7 +9,6 @@ The purpose of this project is to understand the relationship between covid, une
 - [US Bureau of Labor Statistics (Labor Force, not seasonally adjusted)](https://data.bls.gov/timeseries/LAUMT351074000000004?amp%253bdata_tool=XGtable&output_view=data&include_graphs=true): Labor force and employment data
 
 
-
 ## Data Description
 
 
@@ -22,7 +21,10 @@ Here is a description of the final dataset (final_data_testing) after cleaning a
 |employment|the number of people employed|US Bureau of Labor Statistics|
 |unemployment|the number of people unemployed|US Bureau of Labor Statistics|
 |unemployment rate|the unemployment rate (unemployment/labor force)|US Bureau of Labor Statistics|
-
+|time|the month end date|calculated|
+|unemployment_diff|the change in unemployment from the previous month|calculated|
+|labor_force_diff|the change in labor force from the previous month|calculated|
+|covid_monthly_infection_diff|the change in new covid infection in each month|calculated|
 
 
 ## Known Issues
