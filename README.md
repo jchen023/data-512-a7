@@ -21,10 +21,10 @@ Here is a description of the final dataset (final_data_testing) after cleaning a
 |employment|the number of people employed|US Bureau of Labor Statistics|
 |unemployment|the number of people unemployed|US Bureau of Labor Statistics|
 |unemployment rate|the unemployment rate (unemployment/labor force)|US Bureau of Labor Statistics|
-|time|the month end date|calculated|
-|unemployment_diff|the change in unemployment from the previous month|calculated|
-|labor_force_diff|the change in labor force from the previous month|calculated|
-|covid_monthly_infection_diff|the change in new covid infection in each month|calculated|
+|time|the month end date|calculated from Year and Month|
+|unemployment_diff|the change in unemployment from the previous month|calculated from US Bureau of Labor Statistics|
+|labor_force_diff|the change in labor force from the previous month|calculated from US Bureau of Labor Statistics|
+|covid_monthly_infection_diff|the change in new covid infection in each month|calculated from Kaggle|
 
 
 ## Known Issues
