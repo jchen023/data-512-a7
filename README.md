@@ -28,7 +28,7 @@ Here is a description of the final dataset (final_data_testing) after cleaning a
 
 
 ## Known Issues
-- My research produced counterintuitive results that unemployment rate and labor force granger caused covid infection rate. That is likely caused by public policy in the US and a lack of more granular employment data.
+- My research produced counterintuitive results that unemployment rate and labor force granger caused covid infection rate. That is likely caused by the public policy in the US and a lack of more granular employment data.
 - The imprecision in determining the number of close contacts limited my ability to draw any conclusion regarding the mask effectiveness.
 
 
